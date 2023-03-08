@@ -13,3 +13,4 @@ sed -i '31r src/define.txt' src/proxy.h
 ln -s Makefile.Linux Makefile
 make
 make install
+systemctl disable 3proxy.service
