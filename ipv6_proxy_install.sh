@@ -124,7 +124,7 @@ done
 echo "-------------------------------------------------"
 echo ">-- Starting 3proxy"
 killall 3proxy
-systemctl start 3proxy.service
+systemctl restart 3proxy.service
 
 echo "-------------------------------------------------"
 echo ">-- Clearing..."
